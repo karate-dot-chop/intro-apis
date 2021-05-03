@@ -5,7 +5,7 @@ puts "Welcome to the weather app!"
 puts "Enter a city: "
 city = gets.chomp
 
-response = HTTP.get("https://api.openweathermap.org/data/2.5/weather?q=#{city}&units=imperial&APPID=YOUR-API-KEY")
+response = HTTP.get("https://api.openweathermap.org/data/2.5/weather?q=#{city}&units=imperial&APPID=9beb296210c3171be00be7e99d0e7ba8")
 
 weather_data = response.parse
 
